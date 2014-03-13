@@ -1,0 +1,55 @@
+<html>
+
+  <head>
+	<meta name="viewport" content="width=320; user-scalable=no" />
+    <title>MyPlugin</title>
+
+ 	<script type="text/javascript" charset="utf-8" src="_appMobi/appmobi.js"></script>
+    <script type="text/javascript" charset="utf-8" src="_appMobi/myplugin.js"></script>
+
+    <script type="text/javascript" charset="utf-8">
+		function onLoad()
+		{
+			alert('onload');
+			document.addEventListener("appMobi.device.ready",onappMobi,false);
+			document.addEventListener("myplugin.ready",onReady,false);
+			document.addEventListener("myplugin.workstart",onStart,false);
+			document.addEventListener("myplugin.workstop",onStop,false);
+		}
+
+		function onappMobi()
+		{
+			alert('appMobi ready');
+		}
+
+		function onStart()
+		{
+			alert('work started');
+		}
+
+		function onStop()
+		{
+			alert('work stopped');
+		}
+
+		function onReady()
+		{
+			alert('myplugin ready');
+		}
+    </script>
+
+  </head>
+
+  <body style="background-color:#ffffff" onload="javascript:onLoad();">
+
+	<h3>MyPlugin Test Page</h3>
+
+  	<button onclick="javascript:MyPlugin.worker.startWork('hi', 33);">startWork</button>
+
+  	<br/><br/>
+
+  	<button onclick="javascript:MyPlugin.worker.stopWork();">stopWork</button>
+
+  </body>
+
+</html>
