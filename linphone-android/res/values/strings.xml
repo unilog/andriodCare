@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="pref_disable_account">Disable</string>
+    <string name="pref_disable_account">禁用</string>
     
-    <string name="pref_tunnel">Tunnel</string>
-	<string name="pref_tunnel_host">Hostname</string>
-	<string name="pref_tunnel_port">Port</string>
-	<string name="pref_tunnel_mode">Mode</string>
+    <string name="pref_tunnel">通道</string>
+	<string name="pref_tunnel_host">主机名</string>
+	<string name="pref_tunnel_port">端口</string>
+	<string name="pref_tunnel_mode">状态</string>
 
    	<!-- do not change order without changing corresponding entry_values in non_localizable_strings.xml -->
 	<string-array name="tunnel_mode_entries"> 
-		<item>disabled</item>
-		<item>3G only</item>
-		<item>always</item>
-		<item>auto</item>
+		<item>不可用</item>
+		<item>仅3G</item>
+		<item>一直可用</item>
+		<item>自动</item>
 	</string-array> 
 	<!-- module support -->
 	<string-array name="modules">
@@ -45,35 +45,35 @@
 
 	<string name="skipable_error_service_not_ready">Warning: service is not ready</string>
 
-	<string name="close_button_text">Close</string>
+	<string name="close_button_text">关闭</string>
 	
 	<string name="status_conf_call">conf</string>
 	<string name="status_active_call">active</string>
-	<string name="state_paused">paused</string>
-	<string name="state_paused_by_remote">paused by remote</string>
+	<string name="state_paused">暂停</string>
+	<string name="state_paused_by_remote">远程暂停</string>
 	<string name="state_streams_running"></string>
-	<string name="state_incoming_received">incoming</string>
-	<string name="state_outgoing_ringing">ringing</string>
-	<string name="state_outgoing_progress">calling</string>
+	<string name="state_incoming_received">来电</string>
+	<string name="state_outgoing_ringing">响铃</string>
+	<string name="state_outgoing_progress">去电</string>
 	
-	<string name="mutemic_button_txt">Mute</string>
-	<string name="speaker_button_txt">Speaker</string>
-	<string name="bluetooth_button_txt">Bluetooth</string>
+	<string name="mutemic_button_txt">禁音</string>
+	<string name="speaker_button_txt">免提</string>
+	<string name="bluetooth_button_txt">蓝牙</string>
 
-	<string name="CancelButtonText">Cancel</string>
-	<string name="AddCallButtonText">Add call</string>
-	<string name="TransferCallButtonText">Transfer call</string>
+	<string name="CancelButtonText">取消</string>
+	<string name="AddCallButtonText">添加一个对话</string>
+	<string name="TransferCallButtonText">呼叫转移</string>
 
 	<string name="conf_admin_choice_enter">Enter conference</string>
 	<string name="conf_admin_choice_leave">Momentarily leave conference</string>
 	<string name="conf_admin_choice_terminate">Terminate conference</string>
 
-	<string name="hangup">Hang up</string>
-	<string name="conf_simple_merge_bt_txt">Merge</string>
-	<string name="conf_simple_transfer_bt_txt">Transfer</string>
-	<string name="conf_simple_video_bt_txt">video</string>
+	<string name="hangup">接听</string>
+	<string name="conf_simple_merge_bt_txt">合并</string>
+	<string name="conf_simple_transfer_bt_txt">呼叫转移</string>
+	<string name="conf_simple_video_bt_txt">视频</string>
 <!--	<string name="conf_simple_no_current_call">No active call</string>-->
-	<string name="show_send_dtmfs_button">Dialpad</string>
+	<string name="show_send_dtmfs_button">拨号</string>
 
 	<string name="conf_conference">Conference</string>
 	<string name="in_conf">You are part of it</string>
@@ -344,59 +344,59 @@
 	<string name="setup_account_not_validated">Your account has not been validated yet.</string>
 	<string name="setup_account_validated">Your account has been validated.</string>
 	
-	<string name="button_history">History</string>
-	<string name="button_contacts">Contacts</string>
-	<string name="button_settings">Settings</string>
-	<string name="button_chat">Chat</string>
-	<string name="button_about">About</string>
+	<string name="button_history">通话机理</string>
+	<string name="button_contacts">联系人</string>
+	<string name="button_settings">设置</string>
+	<string name="button_chat">消息</string>
+	<string name="button_about">关于</string>
 	
-	<string name="button_setup_cancel">Cancel</string>
-	<string name="button_setup_back">Back</string>
-	<string name="button_setup_next">Let\'s go</string>
+	<string name="button_setup_cancel">取消</string>
+	<string name="button_setup_back">回退</string>
+	<string name="button_setup_next">开始</string>
 	
-	<string name="button_new_chat">New conversation</string>
-	<string name="button_edit">Edit</string>
-	<string name="button_cancel">Cancel</string>
-	<string name="button_ok">Okay</string>
-	<string name="button_all_contacts">All</string>
-	<string name="button_sip_contacts">SIP</string>
-	<string name="button_add_contact">New contact</string>
-	<string name="button_all_call">All</string>
-	<string name="button_missed_call">Missed</string>
-	<string name="button_delete_all">Delete</string>
+	<string name="button_new_chat">新消息</string>
+	<string name="button_edit">编辑</string>
+	<string name="button_cancel">取消</string>
+	<string name="button_ok">确定</string>
+	<string name="button_all_contacts">所有人</string>
+	<string name="button_sip_contacts">圈内</string>
+	<string name="button_add_contact">添加</string>
+	<string name="button_all_call">所有</string>
+	<string name="button_missed_call">未接听</string>
+	<string name="button_delete_all">删除</string>
 	
-	<string name="button_transfer">Transfer</string>
-	<string name="button_add_call">Add call</string>
-	<string name="button_video">Video</string>
-	<string name="button_micro">Micro</string>
-	<string name="button_speaker">Speaker</string>
-	<string name="button_route">Route</string>
-	<string name="button_receiver">Receiver</string>
-	<string name="button_bluetooth">Bluetooth</string>
-	<string name="button_options">Options</string>
+	<string name="button_transfer">呼叫转移</string>
+	<string name="button_add_call">添加一个对话</string>
+	<string name="button_video">视频</string>
+	<string name="button_micro">语音</string>
+	<string name="button_speaker">扬声器</string>
+	<string name="button_route">路由</string>
+	<string name="button_receiver">接听</string>
+	<string name="button_bluetooth">蓝牙</string>
+	<string name="button_options">设置</string>
 	
-	<string name="button_send_message">Send</string>
-	<string name="button_send_picture">Pic</string>
-	<string name="uploading_image">Uploading&#8230;</string>
+	<string name="button_send_message">发送</string>
+	<string name="button_send_picture">图</string>
+	<string name="uploading_image">上传中&#8230;</string>
 	
 	<string name="call_update_title">Call update requested</string>
 	<string name="call_update_desc">Your correspondent would like to add video to the current call.</string>
-	<string name="call_update_yes">Accept</string>
-	<string name="call_update_no">Decline</string>
+	<string name="call_update_yes">接受</string>
+	<string name="call_update_no">拒绝</string>
 
-	<string name="share_picture_size_small">Small</string>
-	<string name="share_picture_size_medium">Medium</string>
-	<string name="share_picture_size_large">Large</string>
-	<string name="share_picture_size_real">Real size</string>
-	<string name="save_picture">Save picture</string>
-	<string name="text_copied_to_clipboard">Text copied to clipboard</string>
-	<string name="copy_text">Copy text</string>
-	<string name="image_picker_title">Select source</string>
-	<string name="image_saved">Image saved</string>
-	<string name="image_not_saved">Error, image not saved</string>
+	<string name="share_picture_size_small">小图</string>
+	<string name="share_picture_size_medium">普通</string>
+	<string name="share_picture_size_large">大图</string>
+	<string name="share_picture_size_real">实际大小</string>
+	<string name="save_picture">保存图片</string>
+	<string name="text_copied_to_clipboard">已复制到剪切板</string>
+	<string name="copy_text">复制</string>
+	<string name="image_picker_title">选择</string>
+	<string name="image_saved">图片已保存</string>
+	<string name="image_not_saved">保存失败</string>
 	
-	<string name="pref_linphone_friend_title">Friends</string>
-	<string name="pref_auto_accept_friends_title">New friends</string>
+	<string name="pref_linphone_friend_title">朋友</string>
+	<string name="pref_auto_accept_friends_title">新朋友</string>
 	<string name="pref_auto_accept_friends_desc">utomatically accept new friend requests</string>
 	<string name="linphone_friend_new_request_title">Friend request</string>
 	<string name="linphone_friend_new_request_desc">wants to share it\'s presence status with you and be aware of yours.</string>

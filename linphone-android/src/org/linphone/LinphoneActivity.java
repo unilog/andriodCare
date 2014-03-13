@@ -182,6 +182,7 @@ public class LinphoneActivity extends FragmentActivity implements
 		//Ñî·«
 				startActivity(new Intent()
 				.setClass(this, AppMobiActivity.class));
+				//finish();
 	}
 
 	private void initButtons() {
