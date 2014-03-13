@@ -16,5 +16,6 @@
 	<string name="about_text">Linphone %s SIP (rfc 3261) compatible phone under GNU Public License V2\n http://www.linphone.org\n\nInstructions\nhttp://www.linphone.org/m/help\n\n© 2011 Belledonne Communications</string>
 
     <string name="tunnel_host"></string>
+    <string name="index_uri">http://192.168.17.40:9010/carephone/</string>
 </resources>
  

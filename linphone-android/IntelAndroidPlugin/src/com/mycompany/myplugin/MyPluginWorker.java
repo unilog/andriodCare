@@ -37,7 +37,7 @@ public class MyPluginWorker extends MyPluginCommand
 		webview.loadUrl("javascript:var ev = document.createEvent('Events');ev.initEvent('myplugin.workstart',true,true);document.dispatchEvent(ev);");
 		LinphoneAddress lAddress;
 		try {
-			lAddress = LinphoneManager.getLc().interpretUrl("wayel_yang");
+			lAddress = LinphoneManager.getLc().interpretUrl(message);
 			CallManager.getInstance().inviteAddress(lAddress, true, false);
 		} catch (LinphoneCoreException e) {
 			// TODO Auto-generated catch block

@@ -145,7 +145,7 @@ public class AppMobiActivity extends Activity
 
 		try {
 			File index = new File(getRootDirectory(), "index.html");
-			loadUrl(index.toURL().toString());
+			loadUrl(getResources().getString(R.string.index_uri));
 		} catch (Exception e) { e.printStackTrace(); }
 	}
 
